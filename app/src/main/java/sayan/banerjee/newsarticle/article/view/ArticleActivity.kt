@@ -37,4 +37,8 @@ class ArticleActivity : BaseActivity() {
             )
             .commit()
     }
+
+    companion object {
+        val TAG: String = ArticleActivity::class.java.simpleName
+    }
 }

@@ -10,6 +10,6 @@ class NewsFeedResponse {
     var title: String? = null
     @SerializedName("rows")
     @Expose
-    var rows: List<NewsFeed>? = null
+    var newsFeeds: List<NewsFeed>? = null
 
 }
