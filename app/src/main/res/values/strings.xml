@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NewsArticle</string>
+    <string name="optimal_network">Optimal Network</string>
+    <string name="poor_network">Poor Network</string>
+    <string name="wifi_network">WiFi Network</string>
+    <string name="no_network">No Network</string>
+
 </resources>
