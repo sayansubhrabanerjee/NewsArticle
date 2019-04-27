@@ -13,6 +13,6 @@ class NewsFeed {
     var description: String? = null
     @SerializedName("imageHref")
     @Expose
-    var imageHref: Any? = null
+    var imageHref: String? = null
 
 }

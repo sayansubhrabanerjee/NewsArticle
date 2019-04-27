@@ -10,6 +10,10 @@ class ArticleActivity : BaseActivity() {
         setContentView(R.layout.activity_article)
     }
 
+    fun setActionBarTitle(title: String) {
+        supportActionBar!!.title = title
+    }
+
     override fun initOnlineFlow() {
         initArticleSuccessFragment()
     }
@@ -38,7 +42,4 @@ class ArticleActivity : BaseActivity() {
             .commit()
     }
 
-    companion object {
-        val TAG: String = ArticleActivity::class.java.simpleName
-    }
 }

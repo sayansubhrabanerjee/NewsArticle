@@ -4,5 +4,7 @@
     <string name="poor_network">Poor Network</string>
     <string name="wifi_network">WiFi Network</string>
     <string name="no_network">No Network</string>
-
+    <string name="title_not_available">Title Not Available</string>
+    <string name="description_not_available">Description Not Available</string>
+    <string name="feed_image">Feed Image</string>
 </resources>
