@@ -9,7 +9,7 @@ import sayan.banerjee.newsarticle.common.network.listener.INetworkListener
 import sayan.banerjee.newsarticle.common.network.receiver.NetworkReceiver
 import sayan.banerjee.newsarticle.common.network.util.NetworkConstants
 import sayan.banerjee.newsarticle.common.network.util.NetworkUtil
-import sayan.banerjee.newsarticle.common.network.util.displayToast
+import sayan.banerjee.newsarticle.common.displayToast
 
 open class BaseActivity : AppCompatActivity(), INetworkListener {
     private var mNetworkReceiver: NetworkReceiver? = null

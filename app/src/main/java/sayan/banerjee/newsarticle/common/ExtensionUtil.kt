@@ -1,4 +1,4 @@
-package sayan.banerjee.newsarticle.common.network.util
+package sayan.banerjee.newsarticle.common
 
 import android.content.Context
 import android.widget.Toast
