@@ -15,7 +15,7 @@
             android:layout_marginStart="@dimen/textView_network_error_margin_all"
             android:layout_marginEnd="@dimen/textView_network_error_margin_all"
             android:gravity="center"
-            style="@style/WeatherErrorTitleAppearance" android:id="@+id/textView_message"
+            style="@style/ErrorTitleAppearance" android:id="@+id/textView_message"
             android:layout_marginTop="@dimen/textView_network_error_margin_top"/>
     <Button
             android:text="@string/retry"
