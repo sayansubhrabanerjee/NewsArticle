@@ -11,7 +11,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.fragment_article_success_container.view.*
+import kotlinx.android.synthetic.main.fragment_article_success.view.*
 import sayan.banerjee.newsarticle.R
 import sayan.banerjee.newsarticle.article.model.NewsFeed
 import sayan.banerjee.newsarticle.article.viewmodel.FeedViewModel
@@ -33,7 +33,7 @@ class ArticleSuccessFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_article_success_container, container, false)
+        val view = inflater.inflate(R.layout.fragment_article_success, container, false)
         initViews(view)
         initFeedViewModel()
         setAdapter(view)

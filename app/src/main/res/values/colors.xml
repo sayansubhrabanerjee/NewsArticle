@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="retry_button_black">#4A4A4A</color>
+    <color name="error_background_red">#E85959</color>
+    <color name="feed_item_blue">#717FC6</color>
 </resources>

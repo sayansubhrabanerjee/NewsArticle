@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="WeatherErrorTitleAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textView_network_error_text_size</item>
+    </style>
+
+    <style name="RetryButtonAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:background">@color/retry_button_black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>

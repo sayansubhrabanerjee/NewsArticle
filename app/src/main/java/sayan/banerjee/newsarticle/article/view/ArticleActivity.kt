@@ -1,7 +1,11 @@
 package sayan.banerjee.newsarticle.article.view
 
 import android.os.Bundle
+import android.view.View
+import android.view.animation.AnimationUtils
+import kotlinx.android.synthetic.main.activity_article.*
 import sayan.banerjee.newsarticle.R
+
 
 class ArticleActivity : BaseActivity() {
 
@@ -15,13 +19,13 @@ class ArticleActivity : BaseActivity() {
     }
 
     override fun initOnlineFlow() {
-        initArticleSuccessFragment()
+        showHideProgress()
     }
 
     override fun initOfflineFlow() {
         initArticleErrorFragment()
+        imageView_loading.visibility = View.GONE
     }
-
 
 
     private fun initArticleErrorFragment() {
@@ -40,6 +44,38 @@ class ArticleActivity : BaseActivity() {
                 ArticleSuccessFragment()
             )
             .commit()
+    }
+
+    private fun animateProgressImage() {
+        val rotateClockWise = AnimationUtils.loadAnimation(this, R.anim.rotate_clockwise)
+        imageView_loading.startAnimation(rotateClockWise)
+    }
+
+    private fun clearProgressImageAnimation() {
+        imageView_loading.clearAnimation()
+    }
+
+    private fun showHideProgress() {
+        imageView_loading.visibility = View.VISIBLE
+        animateProgressImage()
+
+        val thread = object : Thread() {
+            override fun run() {
+                try {
+                    sleep(LOADING_TIMER)
+                } catch (e: InterruptedException) { }
+                runOnUiThread {
+                    initArticleSuccessFragment()
+                    clearProgressImageAnimation()
+                    imageView_loading.visibility = View.GONE
+                }
+            }
+        }
+        thread.start()
+    }
+
+    companion object {
+        const val LOADING_TIMER: Long = 1000
     }
 
 }

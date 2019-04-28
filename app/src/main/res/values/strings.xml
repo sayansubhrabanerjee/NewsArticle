@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewsArticle</string>
+    <string name="app_name">NewsFeeds</string>
     <string name="optimal_network">Optimal Network</string>
     <string name="poor_network">Poor Network</string>
     <string name="wifi_network">WiFi Network</string>
@@ -7,4 +7,12 @@
     <string name="title_not_available">Title Not Available</string>
     <string name="description_not_available">Description Not Available</string>
     <string name="feed_image">Feed Image</string>
+    <string name="msg_please_check_your">Please check your internet connection and try again!</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading</string>
+    <string name="turn_on_wifi">Turn on Wi-Fi</string>
+    <string name="msg_please_turn_on">Please turn on your Wi-Fi to get Feed updates</string>
+    <string name="turn_on">Turn on</string>
+    <string name="cancel">Cancel</string>
 </resources>

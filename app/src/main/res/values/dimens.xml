@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textView_network_error_margin_all">16dp</dimen>
+    <dimen name="textView_network_error_margin_top">60dp</dimen>
+    <dimen name="textView_network_error_text_size">32sp</dimen>
+    <dimen name="button_retry_margin_start_end">8dp</dimen>
+    <dimen name="button_retry_margin_top">64dp</dimen>
+    <dimen name="item_title_desc_margin_start">16dp</dimen>
+    <dimen name="item_title_margin_end">8dp</dimen>
+    <dimen name="item_image_margin_end">16dp</dimen>
+    <dimen name="item_title_desc_margin_top">8dp</dimen>
+    <dimen name="item_desc_margin_bottom">16dp</dimen>
+    <dimen name="item_desc_margin_end">32dp</dimen>
+    <dimen name="item_image_margin_top">16dp</dimen>
+    <dimen name="item_image_margin_bottom">8dp</dimen>
+    <dimen name="item_image_width">150dp</dimen>
+    <dimen name="item_image_height">100dp</dimen>
+    <dimen name="imageView_loading_height_width">96dp</dimen>
+</resources>
